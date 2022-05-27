@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="registration.css" rel="stylesheet" type="text/css">
+    <script async defer src="registration.js"></script>
+    <title>Регистрация</title>
+</head>
+<body>
+    <section class="container">
+        <header class="container-header">
+            <h1>Регистрация</h1>
+        </header>
+
+        <article class="container-body">
+            <form id="registration-form">
+                <section class="item">
+                    <input id="username" name="username" type="text" placeholder="Потребителско име" autocomplete="off" required>
+                </section>
+                <section class="item">
+                    <input id="email" name="email" type="email" placeholder="Имейл" autocomplete="off" required>
+                </section>
+                <section class="item">
+                    <input id="pass" type="password" name="password" placeholder="Парола" required>
+                </section>
+                <section class="item">
+                    <input id="confirm-password" type="password" name="confirm-password" placeholder="Повторете паролата" required>
+                </section>
+                <section class="item">
+                    <label for="password">Рожден ден</label>
+                    <input id="birthday" type="date" name="birthday" placeholder="Въведи рожден ден">
+                </section>
+                <section class="item">
+                    <label for="password">Имен ден</label>
+                    <input id="nameday" type="date" name="nameday" placeholder="Въведи имен ден">
+                </section>
+                <section class="item">
+                    <a href="login.html">
+                        <button>Регистрация</button>
+                    </a> 
+                </section>
+            </form>
+
+            <h2 id="error-message"></h2>
+            <h2 id="success-message"></h2>
+        </article>
+    </section>
+</body>
+</html>
