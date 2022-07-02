@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="bg">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="login.css" rel="stylesheet" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="login.css" rel="stylesheet" type="text/css" />
     <script async defer src="login.js"></script>
     <title>Вход</title>
-</head>
-<body>
+  </head>
+  <body>
     <section class="container">
-        <header class="container-header">
-            <h1>Вход</h1>
-        </header>
+      <header class="container-header">
+        <h1>Вход</h1>
+      </header>
 
-        <article class="container-body">
-            <form id="login-form" >
-                <section class="item">
-                    <input id="email" name="email" placeholder="Имейл" type="email" autocomplete="off" required>
-                </section>
-                <section class="item">
-                    <input id="password" type="password" name="password" placeholder="Парола" required>
-                </section>
-                <section class="item">
-                    <a href="../home_page/home_page.html">
-                        <button id="btn">Вход</button>
-                    </a> 
-                </section>
-            </form>
+      <article class="container-body">
+        <form id="login-form">
+          <section class="item">
+            <input
+              id="email"
+              name="email"
+              placeholder="Имейл"
+              type="email"
+              autocomplete="off"
+              required
+            />
+          </section>
+          <section class="item">
+            <input
+              id="password"
+              type="password"
+              name="password"
+              placeholder="Парола"
+              required
+            />
+          </section>
+          <section class="item">
+            <a href="../home_page/home_page.html">
+              <button id="btn">Вход</button>
+            </a>
+          </section>
+        </form>
 
-            <h2 id="error-message"></h2>
-            <h2 id="success-message"></h2>
-        </article>
+        <h2 id="error-message"></h2>
+      </article>
     </section>
-</body>
+  </body>
 </html>

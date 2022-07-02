@@ -1,0 +1,54 @@
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Организиране на празненство</title>
+    <script async defer src="chat.js"></script>
+    <link rel="stylesheet" href="chat.css" />
+  </head>
+  <body>
+    <ul class="ul_navbar">
+      <li class="li_navbar">
+        <a href="../home_page/home_page.html">Начало</a>
+      </li>
+      <li class="li_navbar">
+        <a href="organization.html">Организиране на празненство</a>
+      </li>
+      <li class="li_navbar"><a href="../users/users.html">Потребители</a></li>
+      <li class="li_navbar">
+        <a href="../users/favourite_users.html">Любими потребители</a>
+      </li>
+      <li class="li_navbar"><a href="../events/event.html">Събития</a></li>
+      <li class="li_navbar"><a href="../profile/profile.html">Профил</a></li>
+      <li class="li_navbar"><a onclick="logoutck();">Изход</a></li>
+    </ul>
+
+    <header id="header"></header>
+
+    <button class="btn" onclick="window.location.href='organization.html'">
+      Назад
+    </button>
+
+    <section id="events">
+      <h1>Участници</h1>
+    </section>
+
+    <section id="sec_com">
+      <label for="comment">Напиши коментар: </label>
+      <input type="text" id="comment" />
+      <button
+        class="upload"
+        type="submit"
+        id="btn-comment"
+        onclick="post_comment();window.location.reload();"
+      >
+        Публикувай!
+      </button>
+    </section>
+
+    <section id="comments-list">
+      <h2>Коментари:</h2>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+body {
+    background-image: url("../../img/34.jpg");
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+header {
+    color: black;
+    font-style: italic;
+    text-decoration: solid;
+    text-align: center;
+    font-size: 45px;
+    width: 100%;
+    margin-top: 3%;
+    letter-spacing: 2px;
+}
+
+.ul_navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(152, 147, 161);
+}
+
+.li_navbar {
+    float: left;
+}
+
+.li_navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 44.5px;
+    ;
+    text-decoration: none;
+    font-size: large;
+}
+
+.li_navbar a:hover {
+    background-color: rgb(205, 174, 172);
+    cursor: pointer;
+}
+
+.userUl {
+    padding: 10%;
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(152, 147, 161);
+    border-radius: 4px;
+    list-style: none;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(152, 147, 161);
+    border-radius: 4px;
+    margin-top: 5%;
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+th {
+    font-size: larger;
+    border-bottom: 3px solid rgb(152, 147, 161);
+    border-right: 3px solid rgb(152, 147, 161);
+    background-color: rgb(205, 174, 172);
+    padding: 1%;
+    font-style: italic;
+}
+
+tbody {
+    color: black;
+    font-size: large;
+    background-color: rgb(152, 147, 161, 0.75);
+}

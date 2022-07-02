@@ -1,0 +1,184 @@
+body {
+    background-image: url("../../img/49.jpg");
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+header {
+    color: black;
+    font-style: italic;
+    text-decoration: solid;
+    text-align: center;
+    font-size: 45px;
+    width: 100%;
+    margin-top: 3%;
+    letter-spacing: 2px;
+}
+
+#events {
+    position: absolute;
+    font-size: larger;
+    left: 1%;
+    top: 35%;
+    border: 3.5px solid rgb(152, 147, 161);
+    border-radius: 4px;
+    padding: 1%;
+    overflow: auto;
+    bottom: 10px;
+}
+
+.ul_navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(152, 147, 161);
+}
+
+.li_navbar {
+    float: left;
+}
+
+.li_navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 45.5px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.li_navbar a:hover {
+    background-color: rgb(205, 174, 172);
+    cursor: pointer;
+}
+
+.eventUl {
+    padding: 3%;
+    border-top: 3.5px solid rgb(152, 147, 161);
+    list-style: none;
+    text-align: center;
+    background-color: rgb(205, 174, 172, 0.55);
+    border-radius: 4px;
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+
+#comment {
+    height: 35px;
+    display: block;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#sec_com {
+    position: fixed;
+    bottom: 10px;
+    margin-left: 17%;
+    width: 80%;
+    border: 3.5px solid rgb(214, 173, 170);
+    border-radius: 4px;
+    text-align: center;
+    padding: 0.5%;
+    display: block;
+}
+
+label {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+.upload {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    width: 15%;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0.5%;
+}
+
+.upload:hover, .btn:hover {
+    cursor: pointer;
+    background-color: rgb(152, 147, 161, 0.75);
+}
+
+#comment:hover {
+    border: 3px solid rgb(106, 94, 128);
+}
+
+#comment:focus {
+    background-color: rgb(200, 198, 204);
+}
+
+#comments-list {
+    border: 3.5px solid rgb(152, 147, 161);
+    border-radius: 4px;
+    position: absolute;
+    top: 35%;
+    padding: 0.5%;
+    width: 80%;
+    margin-left: 17%;
+    text-align: center;
+    background-color: aliceblue;
+    overflow: auto;
+    height: 35%;
+}
+
+.content-comment {
+    font-size: large;
+    list-style: none;
+}
+
+.username-comment:after {
+    content: ": "
+}
+
+.username-comment {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    list-style: none;
+    background-color: rgb(205, 174, 172, 0.55);
+    border-radius: 4px;
+    margin-bottom: 1%;
+    border-top: 3.5px solid rgb(152, 147, 161);
+}
+
+#comments-list h2 {
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(214, 173, 170, 0.75);
+    border-radius: 4px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0.5%;
+    margin-left: 3%;
+    width: 10%;
+}

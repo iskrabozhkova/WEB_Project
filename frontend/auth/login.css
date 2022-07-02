@@ -1,5 +1,4 @@
-body
-{
+body {
   background-image: url("../../img/22.jpg");
   background-size: cover !important;
   margin: auto;
@@ -12,40 +11,49 @@ body
   box-sizing: border-box;
 }
 
-h1
-{
+h1 {
   text-decoration: none;
   font-size: 30px;
-  color:black;
-  font-style:italic;
+  color: black;
+  font-style: italic;
+  margin-bottom: 2%;
+  letter-spacing: 2px;
 }
 
-input, button
-{
+input, button {
   margin: 8px 0;
   box-sizing: border-box;
   border: 1px solid black;
   border-radius: 4px;
 }
 
-input
-{
+input {
   padding: 10px 20px;
   width: 35%;
 }
 
-button
-{
+button {
   padding: 8px 20px;
   cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 2%;
 }
 
-input:focus, button:hover
-{
+input:focus, button:hover {
   background-color: rgb(200, 198, 204);
 }
 
-input:hover
-{
-  border:3px solid rgb(106, 94, 128);
+input:hover {
+  border: 3px solid rgb(106, 94, 128);
+}
+
+#error-message {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  margin-top: 1%;
+  text-align: center;
 }

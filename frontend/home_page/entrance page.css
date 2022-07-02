@@ -1,0 +1,41 @@
+body {
+    background-image: url("../../img/22.jpg");
+    background-size: cover !important;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+li a {
+    padding: 8px;
+    font-size: 40px;
+    color: rgb(75, 74, 74);
+    display: block;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a:hover, li a:focus {
+    color: black;
+}
+
+@media screen and (max-height: 450px) {
+    nav {
+        overflow-y: auto;
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+    a {
+        font-size: 20px
+    }
+}
